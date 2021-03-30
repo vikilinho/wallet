@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:my_wallet/sign_up.dart';
 
 import 'package:my_wallet/sign_in.dart';
-import 'package:my_wallet/create_wallet_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +17,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: HomePage());
+        home: SignIn());
   }
 }
